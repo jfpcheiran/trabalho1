@@ -70,7 +70,7 @@ public class Universidade {
         for(CodigoCurso codigo : CodigoCurso.values()){
             documentosNosMontes += cursos.get(codigo).contarDocumentosNoMonte();
         }
-        if(secretaria.contarDocumentosDespachados() + secretaria.contarDocumentosPerdidos() + documentosNosMontes > Curso.getDocumentosCriados()){
+        if(secretaria.contarDocumentosDespachados() + secretaria.contarDocumentosPerdidos() + documentosNosMontes > Curso.getDocumentosCriados()){ 
             throw new RuntimeException("Documentos misteriosos apareceram nos processos! Podem ser duplicatas");
         }
     }
