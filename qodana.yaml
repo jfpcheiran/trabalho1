@@ -18,3 +18,29 @@ include:
   - name: AssertEqualsCalledOnArray
   - name: AssertEqualsMayBeAssertSame
   - name: ExpectedExceptionNeverThrown
+  - name: TodoComment
+  - name: RedundantSuppression
+  - name: ReassignedToPlainText
+  - name: ProblematicWhitespace
+  - name: LongLine
+  - name: QodanaJavaSanity
+  - name: JavaAnnotator
+  - name: IncorrectFormatting
+  - name: InconsistentLineSeparators
+  - name: Annotator
+  - name: BoundFieldAssignment
+  - name: OneButtonGroup
+  - name: DuplicateMnemonic
+  - name: I18nForm
+  - name: InvalidPropertyKeyForm
+  - name: MissingMnemonic
+  - name: NoLabelFor
+  - name: NoButtonGroup
+  - name: NoScrollPane
+  - name: FormSpellChecking
+  - name: AutoCloseableResource
+  - name: StringConcatenationInLoops
+  - name: ConstantConditions
+  - name: NullPointerException
+  - name: UnusedDeclaration
+  - name: DeprecatedIsStillUsed
